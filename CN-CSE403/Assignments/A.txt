@@ -1,0 +1,16 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	300
+@	IN	SOA	dns1.a829.Karigor.info. root.localhost. (
+			      5		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	dns1
+dns1	IN	A	192.168.1.29
+www	IN	A	172.32.1.29
+web2	IN	CNAME	www
+www	IN	TXT	"ClassRoll:829-ExamRoll:811"
