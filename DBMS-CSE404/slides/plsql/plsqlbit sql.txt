@@ -1,0 +1,61 @@
+  select table_name from user_tables
+	REGIONS
+	LOCATIONS
+	DEPARTMENTS
+	JOBS
+	EMPLOYEES
+	JOB_HISTORY
+	COURT
+	BALLMACHINE
+	MEMBER
+	MEMBER_MATCHTIME_PREF
+
+describe employees
+
+	EMPLOYEE   	
+		EMPLOYEE_ID	Number	
+	 	FIRST_NAME	Varchar2(20)
+	 	LAST_NAME	Varchar2(25)
+	 	EMAIL		Varchar2(25)	
+	 	PHONE_NUMBER	Varchar2(20)
+	 	HIRE_DATE	Date	(7)
+	 	JOB_ID		Varchar2(10)	
+	 	SALARY		Number	 	
+	 	COMMISSION_PCT	Number	
+	 	MANAGER_ID	Number	
+         	DEPARTMENT_ID	Number
+ 	
+ 	DEPARTMENTS
+ 	
+ 		DEPARTMENT_ID	Number	
+		DEPARTMENT_NAME	Varchar2(30)
+		MANAGER_ID	Number	
+ 		LOCATION_ID	Number
+ 		
+ 		
+ 		
+ 		DECLARE
+			CURSOR c_zip IS
+			SELECT *
+			FROM employees;
+			vr_zip c_zip%ROWTYPE;
+		BEGIN
+			OPEN c_zip;
+			LOOP
+			FETCH c_zip INTO vr_zip;
+			EXIT WHEN c_zip%NOTFOUND;
+			DBMS_OUTPUT.PUT_LINE(vr_zip.employee_id);
+			END LOOP;
+		END;
+		
+
+CREATE OR REPLACE TRIGGER mytrig1 BEFORE DELETE OR INSERT OR UPDATE ON departments
+BEGIN     
+IF (TO_CHAR(SYSDATE, 'day') IN ('sat', 'sun')) OR     (TO_CHAR(SYSDATE,'hh:mi') NOT BETWEEN '08:30' AND '11:30') THEN    
+RAISE_APPLICATION_ERROR(-20500, 'table is secured');     
+
+END IF;
+END;
+
+
+insert into departments values (888,'aa',200,1700);
