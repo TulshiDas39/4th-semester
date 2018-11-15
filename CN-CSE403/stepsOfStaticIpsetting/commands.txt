@@ -1,0 +1,13 @@
+1.sudo su -
+1.1.cp db.local d11.udhaka.net-zone
+2.cat d11.udhaka.net-zone
+3.nano d11.udhaka.net-zone
+4.nano named.conf.local
+5.cat resolv.conf
+6.nano resolv.conf
+7.lsof -i -n
+8.service bind9 restart
+9.ping 10.100.108.111
+10.dig ns1.d11.udhaka.net
+11.ifconfig eno1:100 10.100.108.111 netmask 255.255.254.0
+

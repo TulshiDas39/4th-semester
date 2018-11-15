@@ -1,0 +1,7 @@
+1.DNS server details: http://www.beshto.com/questionid/8819
+2.about name server: http://www.firewall.cx/linux-knowledgebase-	tutorials/system-and-network-services/829-linux-bind-	introduction.html
+3.DNS server configuration: https://www.youtube.com/watch?v=Pm4ek8Lvu5o
+4.DNS configuration in Bangla: https://www.youtube.com/watch?v=AXvSpf7CQd4&t=107s
+5.wireshark tutorrial: https://www.youtube.com/watch?v=vUdOxcRJgME
+6.hacking with wireshark: https://www.youtube.com/watch?v=vgw2M4vmSWY
+7. configureation of virtual host: https://www.youtube.com/watch?v=HmGC0cCdImY

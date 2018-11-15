@@ -1,0 +1,42 @@
+date:18.09.17
+  1.how to find default getway
+  2.how to find bind in network
+  3.lsof -n -i
+  4.bind er configuration kothai thake
+  5.etc/bind or bind9 or named thakte pare
+  6.dig command
+  7.dig www.google.com
+  dig [option] host/dom [@name_server]
+  how load bind
+  what is named server
+  close web message(when 
+  aptitude software
+  dig e dns port hoche udp 53
+  how to check is named server is running
+  ekhon je name server use kori seta sodo cashing er kaj kore
+  jon server er daitto dite pari?
+  primary , secondary of domain name
+  slave server master server?
+  dui ta slave server ke handle korte alada arekta master server lagbe
+  amra master master pochondo kori na
+  d01.udhaka.net?
+  d01.udhaka.net - zone file create?
+  cp db.local dr0.udhaka.net command?
+  dom [ttl] 1N ?
+  about certain day the server will not come to khow what is my ip
+  vi dr.0 udhaka.net?analysis -> IN SOA  ns1, ns1 is the name of named server, IN means internet
+  
+  IN NS ns1
+  IN A  10.100.100.101
+  IN A  10.100.109.100
+  IN
+  # modify dr00.udhaka.net?
+  #modify
+  
+  ***how to configure name server
+  **how to configure website
+
+  
+  
+  
+  
