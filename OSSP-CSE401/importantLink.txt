@@ -1,0 +1,7 @@
+
+1.operating system hindi tutorial: https://www.youtube.com/playlist?list=PLCdQecQ6FdVs-w9yqhYuM2cb20xtOY72x
+2. process scheduling tutorial: https://www.youtube.com/playlist?list=PLgH5QX0i9K3r_SuT0AnOEoElfQQPgkBIq
+3. i.eclipse tutorial:https://www.youtube.com/watch?v=E0kg5V88gY4&index=5&list=PLEAQNNR8IlB5R_qZvrFH0g8wC_FLWK9si
+   ii.https://www.youtube.com/watch?v=sPq5fKweIhY&list=PLBBog2r6uMCSmPLJMkXXa0lgMFwGScAP8&index=11
+4. basic unix commands: http://mally.stanford.edu/~sr/computing/basic-unix.html
+5. power point slides of operating system concepts 9th edition: http://codex.cs.yale.edu/avi/courses/CS-423/slides/index.html
